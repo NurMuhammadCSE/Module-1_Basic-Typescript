@@ -10,7 +10,7 @@ const age: number = 15;
 const isAdult = age >= 18 ? " Yes" : "No";
 // console.log(isAdult);
 
-// Nullish Coalesnace Operator
+// Nullish Coalescence Operator
 // Null and Undefined
 
 const isAuthenticatedUser = "";

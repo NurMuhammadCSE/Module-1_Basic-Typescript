@@ -5,13 +5,13 @@
 // console.log(add("a", 1));
 
 function addTwo(a: number, b: number) {
-  return a + b;
+    return a + b;
 }
 
 console.log(addTwo(12, 33));
 
 const addThree = (a: string, b: string) => {
-  return a + " " + b;
+    return a + " " + b;
 };
 
 console.log(addThree("Mrs", " Khadija"));
@@ -26,15 +26,15 @@ console.log(newArray);
 const person = {
     name: "Men",
     balance: 22,
-    addBalance(money:number){
+    addBalance(money: number) {
         return this.balance + money;
     }
 }
 
-const personTwo:  {
+const personTwo: {
     name: string;
     balance: number;
-    addBalance(money:number): void;
+    addBalance(money: number): void;
 } = {
     name: 'Apple',
     balance: 22,
